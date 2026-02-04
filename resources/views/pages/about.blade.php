@@ -81,7 +81,7 @@
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-7 mb-4 mb-lg-0">
-                <h2 class="fw-bold mb-4" style="color: var(--primary);">Who We Are</h2>
+              <h2 class="fw-bold mb-4" style="color: #3e6ae1 !important;">Who We Are</h2>
                 <p class="lead mb-4">
                     OneCall Technical Service Co is Dubai's premier technical services provider, delivering timely, economical, and professional solutions for homes and businesses.
                 </p>
@@ -121,7 +121,6 @@
         <div class="text-center mb-5">
             <h2 class="display-5 fw-bold" style="color: var(--text-dark);">Our Recent Projects</h2>
             <p class="lead mb-3" style="color: var(--text-light);">See our technical excellence across Dubai</p>
-            
         </div>
 
         <div class="slider-container position-relative" style="padding: 0 40px;">
@@ -132,32 +131,26 @@
                         [
                             'img' => 'https://images.unsplash.com/photo-1621905252507-b35492cc74b4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                             'title' => 'Electrical Installation',
-                            
                         ],
                         [
                             'img' => 'https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                             'title' => 'Plumbing Repair',
-                           
                         ],
                         [
                             'img' => 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                             'title' => 'AC Maintenance',
-                           
                         ],
                         [
                             'img' => 'https://images.unsplash.com/photo-1600566752355-35792bedcfea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                             'title' => 'Property Maintenance',
-                           
                         ],
                         [
                             'img' => 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                             'title' => '24/7 Technical Support',
-                           
                         ],
                         [
                             'img' => 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
                             'title' => 'Smart Home Setup',
-                         
                         ]
                     ];
                     @endphp
@@ -170,10 +163,9 @@
                                  class="card-img-top" 
                                  style="height: 200px; object-fit: cover;">
                             <div class="card-body p-4">
-                                <h5 class="card-title fw-bold mb-2" style="color: var(--primary);">
+                                <h5 class="card-title fw-bold mb-2" style="color: var(--primary) !important; color: #3e6ae1 !important;">
                                     {{ $project['title'] }}
                                 </h5>
-                                
                             </div>
                         </div>
                     </div>
@@ -183,12 +175,12 @@
             
             <button class="slider-btn position-absolute top-50 start-0 translate-middle-y rounded-circle border-0 d-flex align-items-center justify-content-center d-none d-md-flex" 
                     id="prevBtn" 
-                    style="width: 50px; height: 50px; background-color: white; color: var(--primary); box-shadow: 0 4px 12px rgba(0,0,0,0.15); transform: translateX(-30px);">
+                    style="width: 50px; height: 50px; background-color: #f0f5ff; color: var(--primary) !important; color: #3e6ae1 !important; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transform: translateX(-30px);">
                 <span class="fs-4">‹</span>
             </button>
             <button class="slider-btn position-absolute top-50 end-0 translate-middle-y rounded-circle border-0 d-flex align-items-center justify-content-center d-none d-md-flex" 
                     id="nextBtn" 
-                    style="width: 50px; height: 50px; background-color: white; color: var(--primary); box-shadow: 0 4px 12px rgba(0,0,0,0.15); transform: translateX(30px);">
+                    style="width: 50px; height: 50px; background-color: #f0f5ff; color: var(--primary) !important; color: #3e6ae1 !important; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transform: translateX(30px);">
                 <span class="fs-4">›</span>
             </button>
             

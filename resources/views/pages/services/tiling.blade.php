@@ -8,7 +8,7 @@
 
 <style>
     :root {
-        --tile-blue: #cc0000;
+        --tile-blue: #3e6ae1;
         --tile-gray: #000000;
         --tile-beige: #5c5d61;
         --tile-green: #d0d1d2;
@@ -19,14 +19,14 @@
     }
 
     /* Hero Section */
-    .tiling-hero {
-        background: linear-gradient(#cc0000b2, #00000093),
-                    url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
-        background-size: cover;
-        background-position: center;
-        min-height: 500px;
-        position: relative;
-    }
+   .tiling-hero {
+    background: linear-gradient(rgba(0, 102, 204, 0.9), rgba(0, 102, 204, 0.66)),
+        url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=2070&q=80');
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    position: relative;
+}
 
     .tiling-hero::after {
         content: '';
@@ -520,9 +520,9 @@
                     <i class="fa fa-toolbox me-2"></i> Certified Tiling Specialists
                 </div>
                 <h1 class="display-5 fw-bold mb-3">Professional Tiling Services in Dubai</h1>
-                <p class="lead mb-4" style="font-size: 1.2rem;">
-                    Expert floor and wall tiling, marble installation, bathroom & kitchen tiling, swimming pool tiling, and complete tiling solutions across Dubai.
-                </p>
+               <p class="lead mb-4" style="font-size: 1.2rem; color: white;">
+    Expert floor and wall tiling, marble installation, bathroom & kitchen tiling, swimming pool tiling, and complete tiling solutions across Dubai.
+</p>
                 <div class="d-flex flex-wrap gap-3">
                     <a href="tel:+971501234567" class="btn btn-light btn-lg px-4">
                         <i class="fa fa-ruler-combined me-2"></i> Free Measurement

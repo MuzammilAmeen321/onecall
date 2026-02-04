@@ -4,15 +4,16 @@
         --tesla-blue: #3e6ae1;
         --tesla-green: #2bcd72;
         --tesla-dark: #171a20;
-        --primary: #990000;
-        --primary-light: #ff3333;
+        --primary: #3e6ae1;
+        --primary-light: #3e6ae1;
         --primary-dark: #000000;
-        --secondary: #cc0000;
+        --secondary: #3e6ae1;
         --accent: var(--tesla-silver);
         --text-dark: var(--tesla-black);
         --text-light: var(--tesla-gray);
         --bg-white: var(--tesla-white);
         --border: #e0e0e0;
+        --primary-hover: #5b8aff;
     }
   body {
         font-family: 'Roboto', Arial, sans-serif;

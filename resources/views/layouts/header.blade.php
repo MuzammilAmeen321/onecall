@@ -337,7 +337,7 @@
     <div class="container">
         <!-- Logo on the left -->
         <a class="navbar-brand" href="/">
-            <img src="{{ asset('images/logo/redlogo.png') }}" alt="ONECALL TECHNICAL SERVICES" class="d-inline-block align-top">
+            <img src="{{ asset('images/logo/wobglogo.png') }}" alt="ONECALL TECHNICAL SERVICES" class="d-inline-block align-top">
         </a>
         
         <!-- Mobile menu button -->
@@ -384,11 +384,12 @@
                             <i class="fa fa-faucet"></i> Plumber Work in Dubai
                         </a>
                         <a href="/tesla-charging" class="dropdown-item">
-                            <i class="fa fa-charging-station"></i> Tesla Charger Installation in Dubai
+                           <i class="fa-solid fa-charging-station"></i> Tesla Charger Installation in Dubai
                         </a>
                         <a href="/tiling-in-dubai" class="dropdown-item">
                             <i class="fa fa-th-large"></i> Tiling Work in Dubai
                         </a>
+                        
                     </div>
                 </li>
                 
@@ -405,7 +406,7 @@
 
 <script>
     // Add CSS variables for the color scheme
-    document.documentElement.style.setProperty('--primary', '#990000');
+    document.documentElement.style.setProperty('--primary', '#2e52c2');
     document.documentElement.style.setProperty('--primary-dark', '#000000');
     document.documentElement.style.setProperty('--tesla-silver', '#d0d1d2');
     

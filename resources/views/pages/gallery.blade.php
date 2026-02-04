@@ -4,7 +4,7 @@
 <style>
     /* Color Variables */
     :root {
-        --primary: #990000;
+        --primary: #3e6ae1;
         --primary-dark: #000000;
         --tesla-silver: #d0d1d2;
     }
@@ -19,7 +19,7 @@
     /* Gallery Header */
    .gallery-header {
     background:
-        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+   linear-gradient(rgba(72, 116, 159, 0.67), rgba(0, 102, 204, 0.66)),
         url('./images/bgimages/banner.jpg');
     background-size: cover;
     background-position: top center; /* 👈 yahan change */
@@ -80,14 +80,22 @@
     }
     
     .filter-btn:hover,
-    .filter-btn.active {
-        background-color: var(--primary);
-        color: white;
-        border-color: var(--primary);
+    .filter-btn.active
+     { background-color: #3e6ae1 !important;
+        color: white ;
+      
         transform: translateY(-3px);
-        box-shadow: 0 5px 15px rgba(153, 0, 0, 0.2);
+       
     }
     
+  .filter-btn:hover {
+    background-color: #3e6ae1 !important;
+    color: white !important;
+    border-color: #3e6ae1 !important;
+    box-shadow: 0 6px 18px rgba(62,106,225,0.35) !important;
+    transform: translateY(-2px);
+  }
+
     /* Gallery Grid */
     .gallery-container {
         padding: 0 15px;
@@ -211,7 +219,7 @@
     }
     
     .modal-close:hover {
-        background-color: #cc0000;
+        background-color: #3e6ae1;
     }
     
     .modal-info {
@@ -579,7 +587,7 @@
             category: "glass",
             title: "Aluminium Sliding Glass Doors",
             description: "Panels slide horizontally along tracks for easy operation, maximizing wide openings and unobstructed views",
-            image: "https://maitechnicalservices.com/wp-content/uploads/2025/01/aluminium-glass-doors-16-1024x638-1.jpg"
+            image: "https://www.visionartaluminium.com/wp-content/uploads/aluminium-pivot-door-system-2.webp"
         },
          {
             id: 11,

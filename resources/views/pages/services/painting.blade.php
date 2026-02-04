@@ -8,27 +8,32 @@
 
 <style>
     :root {
-        --paint-red: #f44336;
+        --paint-red: #2196f3;
         --paint-blue: #2196f3;
         --paint-green: #4caf50;
-        --paint-yellow: #ffeb3b;
+        --paint-yellow: #2196f3;
         --paint-purple: #9c27b0;
         --paint-dark: #263238;
     }
 
     /* Hero Section */
-    .paint-hero {
-        background: linear-gradient(rgba(244, 67, 54, 0.9), rgba(244, 67, 54, 0.95)),
-                    url('https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
-        background-size: cover;
-        background-position: center;
-        min-height: 400px;
-        position: relative;
-    }
+ .paint-hero {
+    background: linear-gradient(rgba(0, 102, 204, 0.9), rgba(0, 102, 204, 0.66)),
+        url('https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+    position: relative;
+}
 
     .paint-hero-content {
         padding: 80px 0 100px;
     }
+    .paint-hero .lead {
+    color: white;          /* Pure white for maximum readability */
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);  /* Optional subtle shadow for extra pop on busy backgrounds */
+    font-weight: 300;      /* Slightly bolder if you want it to stand out more */
+}
 
     /* HOW WE WORK Section Styles */
     .how-we-work-section {
@@ -746,11 +751,13 @@
         </div>
 
         <!-- View More Button -->
-        <div class="text-center">
-            <a href="tel:+971500000000" class="btn btn-danger px-4">
-                <i class="fa fa-images me-2"></i> View Painting Portfolio
-            </a>
-        </div>
+<div class="text-center">
+    <a href="tel:+971500000000" 
+       class="btn btn-outline-primary px-4" 
+       style="border-radius: 0.5rem;">
+        <i class="fa fa-images me-2"></i> View Painting Portfolio
+    </a>
+</div>
     </div>
 </section>
 
@@ -787,9 +794,9 @@
 <section class="service-detail-section" style="background-color: #f8fafc;">
     <div class="container">
         <div class="text-center mb-5">
-            <span class="badge bg-danger mb-3 px-3 py-2" style="font-size: 0.9rem;">
-                <i class="fa fa-paint-roller me-1"></i> Professional Painting Services
-            </span>
+           <span class="badge bg-primary mb-3 px-3 py-2" style="font-size: 0.9rem;">
+    <i class="fa fa-paint-roller me-1"></i> Professional Painting Services
+</span>
             <h2 class="fw-bold mb-3" style="color: var(--paint-dark);">Complete Painting Solutions</h2>
             <p class="text-muted mx-auto" style="max-width: 700px;">
                 From interior walls to exterior facades, we provide comprehensive painting services for residential and commercial properties in Dubai.

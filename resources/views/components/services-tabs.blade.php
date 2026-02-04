@@ -6,7 +6,7 @@
             <!-- Electrician -->
             <div class="service-glow-card" data-service="electrician">
                 <div class="service-glow-icon">
-                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #990000 0%, #ff3333 100%);">
+                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);">
                         <i class="fas fa-bolt"></i>
                     </div>
                     <div class="pulse-effect"></div>
@@ -17,7 +17,7 @@
             <!-- A/C Service -->
             <div class="service-glow-card" data-service="ac">
                 <div class="service-glow-icon">
-                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #000000 0%, #333333 100%);">
+                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);">
                         <i class="fas fa-snowflake"></i>
                     </div>
                     <div class="pulse-effect"></div>
@@ -28,7 +28,7 @@
             <!-- UPS -->
             <div class="service-glow-card" data-service="ups">
                 <div class="service-glow-icon">
-                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #990000 0%, #ff3333 100%);">
+                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);">
                         <i class="fas fa-car-battery"></i>
                     </div>
                     <div class="pulse-effect"></div>
@@ -39,7 +39,7 @@
             <!-- Painter -->
             <div class="service-glow-card" data-service="painter">
                 <div class="service-glow-icon">
-                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #000000 0%, #333333 100%);">
+                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);">
                         <i class="fas fa-paint-roller"></i>
                     </div>
                     <div class="pulse-effect"></div>
@@ -50,7 +50,7 @@
             <!-- Plumbing -->
             <div class="service-glow-card" data-service="plumbing">
                 <div class="service-glow-icon">
-                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #990000 0%, #ff3333 100%);">
+                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);">
                         <i class="fas fa-wrench"></i>
                     </div>
                     <div class="pulse-effect"></div>
@@ -61,7 +61,7 @@
             <!-- CCTV -->
             <div class="service-glow-card" data-service="cctv">
                 <div class="service-glow-icon">
-                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #000000 0%, #333333 100%);">
+                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);">
                         <i class="fas fa-video"></i>
                     </div>
                     <div class="pulse-effect"></div>
@@ -72,7 +72,7 @@
             <!-- Tiling -->
             <div class="service-glow-card" data-service="tiling">
                 <div class="service-glow-icon">
-                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #990000 0%, #ff3333 100%);">
+                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);">
                         <i class="fas fa-th-large"></i>
                     </div>
                     <div class="pulse-effect"></div>
@@ -83,7 +83,7 @@
             <!-- Aluminum & Glass -->
             <div class="service-glow-card" data-service="aluminum">
                 <div class="service-glow-icon">
-                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #000000 0%, #333333 100%);">
+                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);">
                         <i class="fas fa-glass-whiskey"></i>
                     </div>
                     <div class="pulse-effect"></div>
@@ -94,7 +94,7 @@
             <!-- Gypsum Work -->
             <div class="service-glow-card" data-service="gypsum">
                 <div class="service-glow-icon">
-                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #990000 0%, #ff3333 100%);">
+                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);">
                         <i class="fas fa-hard-hat"></i>
                     </div>
                     <div class="pulse-effect"></div>
@@ -105,7 +105,7 @@
             <!-- EV Charger -->
             <div class="service-glow-card" data-service="evcharger">
                 <div class="service-glow-icon">
-                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #000000 0%, #333333 100%);">
+                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);">
                         <i class="fas fa-charging-station"></i>
                     </div>
                     <div class="pulse-effect"></div>

@@ -19,7 +19,7 @@
 
     /* Hero Section */
     .plumber-hero {
-        background: linear-gradient(rgba(33, 150, 243, 0.9), rgba(33, 150, 243, 0.95)),
+        background: linear-gradient(rgba(0, 102, 204, 0.9), rgba(0, 102, 204, 0.66)),
                     url('https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
         background-size: cover;
         background-position: center;
@@ -29,6 +29,7 @@
 
     .plumber-hero-content {
         padding: 80px 0 100px;
+        
     }
 
     /* HOW WE WORK Section */
@@ -481,9 +482,9 @@
         <div class="row align-items-center plumber-hero-content">
             <div class="col-lg-8 text-white">
                 <h1 class="display-5 fw-bold mb-3">Professional Plumbing Services in Dubai</h1>
-                <p class="lead mb-4" style="font-size: 1.2rem;">
-                    24/7 Emergency plumbing services, water heater repair, pipe installation, drainage cleaning, and complete plumbing solutions for homes and businesses across Dubai.
-                </p>
+               <p class="lead mb-4" style="font-size: 1.2rem; color: white;">
+    24/7 Emergency plumbing services, water heater repair, pipe installation, drainage cleaning, and complete plumbing solutions for homes and businesses across Dubai.
+</p>
                 <div class="d-flex flex-wrap gap-3">
                     <a href="tel:+971501234567" class="btn btn-light btn-lg px-4">
                         <i class="fa fa-phone me-2"></i> Emergency Call: 24/7

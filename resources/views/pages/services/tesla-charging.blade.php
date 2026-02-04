@@ -8,7 +8,7 @@
 
 <style>
     :root {
-        --tesla-red: #cc0000;
+        --tesla-red: #3e6ae1;
         --tesla-black: #000000;
         --tesla-gray: #5c5d61;
         --tesla-silver: #d0d1d2;
@@ -18,15 +18,14 @@
     }
 
     /* Hero Section */
-    .tesla-hero {
-        background: linear-gradient(rgba(23, 26, 32, 0.9), rgba(23, 26, 32, 0.95)),
-                    url('https://images.unsplash.com/photo-1593941707882-a5bba5337f2a?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
-        background-size: cover;
-        background-position: center;
-        min-height: 500px;
-        position: relative;
-    }
-
+ .tesla-hero {
+    background: linear-gradient(rgba(0, 102, 204, 0.9), rgba(0, 102, 204, 0.66)),
+        url('https://wp.technologyreview.com/wp-content/uploads/2023/06/GettyImages-1412255960-crop.jpeg');
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    position: relative;
+}
     .tesla-hero::after {
         content: '';
         position: absolute;
@@ -536,13 +535,15 @@
                     <i class="fa fa-bolt me-2"></i> Certified Tesla Charger Installer
                 </div>
                 <h1 class="display-5 fw-bold mb-3">Tesla Charger Installation in Dubai</h1>
-                <p class="lead mb-4" style="font-size: 1.2rem;">
-                    Professional installation of Tesla Wall Connectors, Destination Chargers, and home EV charging solutions across Dubai. DEWA-approved installations with 3-year warranty.
-                </p>
+       <p class="lead mb-4" style="font-size: 1.2rem; color: white;">
+    Professional installation of Tesla Wall Connectors, Destination Chargers, and home EV charging solutions across Dubai. DEWA-approved installations with 3-year warranty.
+</p>
                 <div class="d-flex flex-wrap gap-3">
-                    <a href="tel:+971501234567" class="btn btn-danger btn-lg px-4">
-                        <i class="fa fa-charging-station me-2"></i> Get Free Site Survey
-                    </a>
+                  <a href="tel:+971501234567" 
+   class="btn btn-lg px-4" 
+   style="background-color: #3e6ae1; border-color: #3e6ae1; color: white;">
+    <i class="fa fa-charging-station me-2"></i> Get Free Site Survey
+</a>
                     <a href="#booking" class="btn btn-outline-light btn-lg px-4">
                         <i class="fa fa-calendar me-2"></i> Book Installation
                     </a>

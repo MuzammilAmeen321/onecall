@@ -18,7 +18,7 @@
 
     /* Hero Section */
     .electric-hero {
-        background: linear-gradient(rgba(41, 98, 255, 0.9), rgba(41, 98, 255, 0.95)),
+        background: linear-gradient(rgba(0, 102, 204, 0.9), rgba(0, 102, 204, 0.66)),
                     url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
         background-size: cover;
         background-position: center;
@@ -458,7 +458,7 @@
         <div class="row align-items-center electric-hero-content">
             <div class="col-lg-8 text-white">
                 <h1 class="display-5 fw-bold mb-3">Professional Electrical Services in Dubai</h1>
-                <p class="lead mb-4" style="font-size: 1.2rem;">
+                <p class="lead mb-4" style="font-size: 1.2rem; color: white;">
                     Certified electricians for wiring, rewiring, lighting installation, circuit breaker repair, DB box installation, and complete electrical solutions across Dubai.
                 </p>
                 <div class="d-flex flex-wrap gap-3">

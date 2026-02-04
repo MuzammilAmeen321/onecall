@@ -164,18 +164,7 @@
     transform: translateY(-1px);
 }
 
-.service-badge {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: var(--accent);
-    color: white;
-    padding: 3px 8px;
-    border-radius: 4px;
-    font-size: 0.7rem;
-    font-weight: 600;
-    z-index: 2;
-}
+
 
 /* Compact Grid Layout */
 .service-grid-compact {
@@ -305,7 +294,7 @@
         <div class="row justify-content-center text-center text-white">
             <div class="col-lg-10">
                 <h1 class="display-5 fw-bold mb-3">All Services in Dubai</h1>
-                <p class="lead mb-3 opacity-90" style="font-size: 1.1rem;">
+                <p class="lead mb-3 opacity-90" style="font-size: 1.1rem; color: white;">
                     Professional technical services for homes & businesses
                 </p>
                 <div class="d-flex justify-content-center gap-2 flex-wrap">
@@ -330,9 +319,9 @@
 <section class="py-5" style="background-color: var(--bg-white);">
     <div class="container">
         <div class="text-center mb-4">
-            <h2 class="fw-bold" style="color: var(--primary); font-size: 1.8rem;">
-                Our Main Services
-            </h2>
+           <h2 class="fw-bold" style="color: #4a90e2 !important; font-size: 1.8rem;">
+    Our Main Services
+</h2>
             <p class="text-muted" style="font-size: 0.95rem;">Professional services across Dubai</p>
         </div>
         
@@ -459,7 +448,7 @@
                 @php
                 $acServices = [
                     ['title' => 'AC Installation', 'price' => 'AED 450+', 'icon' => 'fa-tools', 'color' => '#228be6', 'featured' => true],
-                    ['title' => 'Emergency AC Repair', 'price' => 'AED 250+', 'icon' => 'fa-exclamation-triangle', 'color' => '#ff6b6b'],
+                    ['title' => 'Emergency AC Repair', 'price' => 'AED 250+', 'icon' => 'fa-exclamation-triangle', 'color' => '#4a90e2'],
                     ['title' => 'AC Maintenance', 'price' => 'AED 180+', 'icon' => 'fa-cogs', 'color' => '#228be6'],
                     ['title' => 'AC Gas Charging', 'price' => 'AED 350+', 'icon' => 'fa-gas-pump', 'color' => '#228be6'],
                     ['title' => 'Duct Cleaning', 'price' => 'AED 200+', 'icon' => 'fa-broom', 'color' => '#20c997'],
@@ -470,7 +459,7 @@
                 @foreach($acServices as $service)
                 <div class="service-card-compact @if($service['featured'] ?? false) featured-card @endif">
                     @if($service['featured'] ?? false)
-                    <div class="service-badge">Popular</div>
+                 <div class="service-badge" >Popular</div>
                     @endif
                     <div class="service-card-header">
                         <div class="service-card-icon" style="background-color: {{ $service['color'] }};">
@@ -482,8 +471,8 @@
                         Professional installation & repair services for all AC brands in Dubai.
                     </p>
                     <div class="service-card-footer">
-                        <div class="service-price">{{ $service['price'] }}</div>
-                        <a href="tel:+971000000000" class="btn-compact">
+                        <div class="service-price" style="color: #4a90e2;">{{ $service['price'] }}</div>
+                        <a href="tel:+971000000000" class="btn-compact" style="background-color: #4a90e2;">
                             <i class="fa fa-phone"></i> Call
                         </a>
                     </div>
@@ -518,7 +507,7 @@
                 @foreach($electricalServices as $service)
                 <div class="service-card-compact @if($service['featured'] ?? false) featured-card @endif">
                     @if($service['featured'] ?? false)
-                    <div class="service-badge">Featured</div>
+                    <div class="service-badge" style="background-color: #4a90e2;">Featured</div>
                     @endif
                     <div class="service-card-header">
                         <div class="service-card-icon" style="background-color: {{ $service['color'] }};">
@@ -530,8 +519,8 @@
                         Certified electricians for safe electrical work in Dubai.
                     </p>
                     <div class="service-card-footer">
-                        <div class="service-price">{{ $service['price'] }}</div>
-                        <a href="tel:+971000000000" class="btn-compact">
+                        <div class="service-price" style="color: #4a90e2;">{{ $service['price'] }}</div>
+                        <a href="tel:+971000000000" class="btn-compact" style="background-color: #4a90e2;">
                             <i class="fa fa-phone"></i> Call
                         </a>
                     </div>
@@ -549,7 +538,7 @@
                     </div>
                     Plumbing Services
                 </h2>
-                <a href="services/plumbing.html" class="view-all">
+                <a href="services/plumbing.html" class="view-all" style="color: #4a90e2;">
                     View All <i class="fa fa-arrow-right ms-1"></i>
                 </a>
             </div>
@@ -557,9 +546,9 @@
             <div class="service-grid-compact">
                 @php
                 $plumbingServices = [
-                    ['title' => 'Emergency Repair', 'price' => 'AED 200+', 'icon' => 'fa-exclamation-circle', 'color' => '#ff6b6b', 'featured' => true],
+                    ['title' => 'Emergency Repair', 'price' => 'AED 200+', 'icon' => 'fa-exclamation-circle', 'color' => '#4a90e2', 'featured' => true],
                     ['title' => 'Pipe Installation', 'price' => 'AED 350+', 'icon' => 'fa-pipe', 'color' => '#20c997'],
-                    ['title' => 'Water Heater', 'price' => 'AED 400+', 'icon' => 'fa-fire', 'color' => '#ff6b6b'],
+                    ['title' => 'Water Heater', 'price' => 'AED 400+', 'icon' => 'fa-fire', 'color' => '#4a90e2'],
                     ['title' => 'Drain Cleaning', 'price' => 'AED 150+', 'icon' => 'fa-shower', 'color' => '#20c997'],
                     ['title' => 'Bathroom Plumbing', 'price' => 'AED 300+', 'icon' => 'fa-sink', 'color' => '#20c997'],
                     ['title' => 'Leak Detection', 'price' => 'AED 250+', 'icon' => 'fa-tint', 'color' => '#20c997'],
@@ -569,7 +558,7 @@
                 @foreach($plumbingServices as $service)
                 <div class="service-card-compact @if($service['featured'] ?? false) featured-card @endif">
                     @if($service['featured'] ?? false)
-                    <div class="service-badge">24/7</div>
+                    <div class="service-badge" style="background-color: #4a90e2;">24/7</div>
                     @endif
                     <div class="service-card-header">
                         <div class="service-card-icon" style="background-color: {{ $service['color'] }};">
@@ -581,8 +570,8 @@
                         Quick plumbing solutions for homes & businesses in Dubai.
                     </p>
                     <div class="service-card-footer">
-                        <div class="service-price">{{ $service['price'] }}</div>
-                        <a href="tel:+971000000000" class="btn-compact">
+                        <div class="service-price" style="color: #4a90e2;">{{ $service['price'] }}</div>
+                        <a href="tel:+971000000000" class="btn-compact" style="background-color: #4a90e2;">
                             <i class="fa fa-phone"></i> Call
                         </a>
                     </div>
@@ -592,7 +581,7 @@
         </div>
 
         <!-- Quick Contact Banner -->
-        <div class="quick-contact-banner text-white">
+        <div class="quick-contact-banner text-white" style="background: linear-gradient(90deg, #4a90e2, #357abd);">
             <div class="row align-items-center">
                 <div class="col-md-9">
                     <h4 class="fw-bold mb-1">Need Professional Services?</h4>
@@ -628,12 +617,12 @@
                         @foreach($cctvServices as $service)
                         <div class="compact-service-item">
                             <span class="service-name">{{ $service['name'] }}</span>
-                            <span class="service-price-sm">{{ $service['price'] }}</span>
+                            <span class="service-price-sm" style="color: #4a90e2;">{{ $service['price'] }}</span>
                         </div>
                         @endforeach
                     </div>
                     <div class="mt-3">
-                        <a href="tel:+971000000000" class="btn-compact w-100 text-center">
+                        <a href="tel:+971000000000" class="btn-compact w-100 text-center" style="background-color: #4a90e2;">
                             <i class="fa fa-phone me-1"></i> Book CCTV Service
                         </a>
                     </div>
@@ -644,7 +633,7 @@
             <div class="col-md-6 col-lg-4 mb-3">
                 <div class="compact-category">
                     <h3 class="compact-category-title">
-                        <i class="fa fa-paint-roller" style="color: #ff6b6b;"></i>
+                        <i class="fa fa-paint-roller" style="color: #4a90e2;"></i>
                         Painting Services
                     </h3>
                     <div class="compact-service-list">
@@ -660,12 +649,12 @@
                         @foreach($paintingServices as $service)
                         <div class="compact-service-item">
                             <span class="service-name">{{ $service['name'] }}</span>
-                            <span class="service-price-sm">{{ $service['price'] }}</span>
+                            <span class="service-price-sm" style="color: #4a90e2;">{{ $service['price'] }}</span>
                         </div>
                         @endforeach
                     </div>
                     <div class="mt-3">
-                        <a href="tel:+971000000000" class="btn-compact w-100 text-center">
+                        <a href="tel:+971000000000" class="btn-compact w-100 text-center" style="background-color: #4a90e2;">
                             <i class="fa fa-brush me-1"></i> Get Quote
                         </a>
                     </div>
@@ -692,12 +681,12 @@
                         @foreach($tilingServices as $service)
                         <div class="compact-service-item">
                             <span class="service-name">{{ $service['name'] }}</span>
-                            <span class="service-price-sm">{{ $service['price'] }}</span>
+                            <span class="service-price-sm" style="color: #4a90e2;">{{ $service['price'] }}</span>
                         </div>
                         @endforeach
                     </div>
                     <div class="mt-3">
-                        <a href="tel:+971000000000" class="btn-compact w-100 text-center">
+                        <a href="tel:+971000000000" class="btn-compact w-100 text-center" style="background-color: #4a90e2;">
                             <i class="fa fa-hammer me-1"></i> Book Tiling
                         </a>
                     </div>
@@ -724,12 +713,12 @@
                         @foreach($glassServices as $service)
                         <div class="compact-service-item">
                             <span class="service-name">{{ $service['name'] }}</span>
-                            <span class="service-price-sm">{{ $service['price'] }}</span>
+                            <span class="service-price-sm" style="color: #4a90e2;">{{ $service['price'] }}</span>
                         </div>
                         @endforeach
                     </div>
                     <div class="mt-3">
-                        <a href="tel:+971000000000" class="btn-compact w-100 text-center">
+                        <a href="tel:+971000000000" class="btn-compact w-100 text-center" style="background-color: #4a90e2;">
                             <i class="fa fa-tools me-1"></i> Get Quote
                         </a>
                     </div>
@@ -756,12 +745,12 @@
                         @foreach($gypsumServices as $service)
                         <div class="compact-service-item">
                             <span class="service-name">{{ $service['name'] }}</span>
-                            <span class="service-price-sm">{{ $service['price'] }}</span>
+                            <span class="service-price-sm" style="color: #4a90e2;">{{ $service['price'] }}</span>
                         </div>
                         @endforeach
                     </div>
                     <div class="mt-3">
-                        <a href="tel:+971000000000" class="btn-compact w-100 text-center">
+                        <a href="tel:+971000000000" class="btn-compact w-100 text-center" style="background-color: #4a90e2;">
                             <i class="fa fa-ruler me-1"></i> Book Service
                         </a>
                     </div>
@@ -772,7 +761,7 @@
             <div class="col-md-6 col-lg-4 mb-3">
                 <div class="compact-category">
                     <h3 class="compact-category-title">
-                        <i class="fa fa-charging-station" style="color: #f06595;"></i>
+                        <i class="fa fa-charging-station" style="color: #4a90e2;"></i>
                         EV Charging
                     </h3>
                     <div class="compact-service-list">
@@ -788,12 +777,12 @@
                         @foreach($evServices as $service)
                         <div class="compact-service-item">
                             <span class="service-name">{{ $service['name'] }}</span>
-                            <span class="service-price-sm">{{ $service['price'] }}</span>
+                            <span class="service-price-sm" style="color: #4a90e2;">{{ $service['price'] }}</span>
                         </div>
                         @endforeach
                     </div>
                     <div class="mt-3">
-                        <a href="tel:+971000000000" class="btn-compact w-100 text-center" style="background-color: #f06595;">
+                        <a href="tel:+971000000000" class="btn-compact w-100 text-center" style="background-color: #4a90e2;">
                             <i class="fa fa-bolt me-1"></i> EV Quote
                         </a>
                     </div>

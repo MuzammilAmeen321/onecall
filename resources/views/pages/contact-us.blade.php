@@ -10,7 +10,7 @@
 
 
 .about-hero {
-    background: linear-gradient(#990000, rgba(0, 87, 179, 0.73)), url('{{ asset("images/services/about-cover.png") }}');
+    background: linear-gradient(#3e6ae1, rgba(0, 87, 179, 0.73)), url('{{ asset("images/services/about-cover.png") }}');
     background-size: cover;
     background-position: top;
     min-height: 80vh;
@@ -234,7 +234,7 @@
             <!-- Contact Form -->
             <div class="col-lg-6">
                 <div class="card border-0 shadow-sm hover-lift" style="border-radius: 12px; overflow: hidden;">
-                    <div class="card-header border-0 py-4" style="background: var(--primary);">
+                    <div class="card-header border-0 py-4 bg-primary" >
                         <h2 class="card-title mb-0 text-white text-center fs-4">
                             <i class="fa fa-wrench me-2"></i> Request Service
                         </h2>
@@ -350,10 +350,12 @@
                             </div>
                             
                             <div class="d-grid">
-                                <button type="submit" class="btn btn-sm py-2" 
-                                        style="background: var(--primary); color: white; border-radius: 8px; font-weight: 500;">
-                                    <i class="fa fa-paper-plane me-2"></i> Submit Request
-                                </button>
+                              <button type="submit" class="btn btn-sm py-2" 
+        style="background: #3e6ae1; color: white; border: none; border-radius: 8px; font-weight: 500; transition: all 0.3s ease; box-shadow: 0 2px 8px rgba(62,106,225,0.25);"
+        onmouseover="this.style.background='#2e52c2'"
+        onmouseout="this.style.background='#3e6ae1'">
+    <i class="fa fa-paper-plane me-2"></i> Submit Request
+</button>
                             </div>
                         </form>
                     </div>
@@ -386,7 +388,7 @@
                             
                             <!-- Contact Details -->
                             <div class="bg-white rounded-3 p-4 shadow-lg" style="max-width: 90%;">
-                                <h4 class="fw-bold mb-3" style="color: var(--primary);">
+                                <h4 class="fw-bold mb-3" style="color:"class="text">
                                     <i class="fa fa-headset me-2"></i> Contact Information
                                 </h4>
                                 
@@ -453,9 +455,9 @@
                                     <div class="row g-2">
                                         <div class="col-6">
                                             <div class="text-center p-2 rounded-2" 
-                                                 style="background-color: var(--bg-light);">
+                                                 style="background-color:bg-primary">
                                                 <small class="d-block text-muted">Regular Hours</small>
-                                                <span style="color: var(--primary); font-weight: 500; font-size: 0.9rem;">
+                                                <span style=" font-weight: 500; font-size: 0.9rem; " class="text-primary">
                                                     8 AM - 10 PM
                                                 </span>
                                             </div>
@@ -464,7 +466,7 @@
                                             <div class="text-center p-2 rounded-2" 
                                                  style="background-color: var(--bg-light);">
                                                 <small class="d-block text-muted">Response Time</small>
-                                                <span style="color: var(--primary); font-weight: 500; font-size: 0.9rem;">
+                                                <span style=" font-weight: 500; font-size: 0.9rem;" class="text-primary">
                                                     60 Minutes
                                                 </span>
                                             </div>
@@ -484,38 +486,38 @@
 <section class="py-5">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-5 fw-bold mb-3" style="color: var(--primary);">How to Reach Us</h2>
+            <h2 class="display-5 fw-bold mb-3" style="color: #3e6ae1 !important;">How to Reach Us</h2>
             <p class="lead text-muted">Multiple convenient ways to connect with our expert technicians</p>
         </div>
         
         <div class="row g-4">
             <!-- Call Us Card -->
             <div class="col-md-4">
-                <div class="card border-0 shadow-sm hover-lift equal-height-card card-border-top-primary">
+                <div class="card border-0 shadow-sm hover-lift equal-height-card" style="border-top: 5px solid #3e6ae1 !important;">
                     <div class="card-body p-4 text-center d-flex flex-column">
-                        <div class="icon-circle" style="background: linear-gradient(135deg, var(--primary), var(--primary-dark));">
+                        <div class="rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center" style="background: #3e6ae1 !important; width: 70px; height: 70px;">
                             <i class="fa fa-headset fa-2x text-white"></i>
                         </div>
-                        <h4 class="fw-bold mb-3" style="color: var(--text-dark);">Call Us Directly</h4>
+                        <h4 class="fw-bold mb-3" style="color: #3e6ae1 !important;">Call Us Directly</h4>
                         <p class="text-muted mb-4">Speak directly with our service coordinators for immediate assistance</p>
                         <div class="mb-4">
                             <div class="d-flex align-items-center justify-content-center mb-3">
-                                <i class="fa fa-phone me-3" style="color: var(--primary);"></i>
+                                <i class="fa fa-phone me-3" style="color: #3e6ae1 !important; font-size: 1.5rem;"></i>
                                 <div class="text-start">
                                     <small class="d-block text-muted">24/7 Emergency Line</small>
-                                    <strong style="color: var(--primary); font-size: 1.2rem;">+971 4 XXX XXXX</strong>
+                                    <strong style="color: #3e6ae1 !important; font-size: 1.2rem;">+971 4 XXX XXXX</strong>
                                 </div>
                             </div>
                             <div class="d-flex align-items-center justify-content-center">
-                                <i class="fab fa-whatsapp me-3" style="color: #25D366;"></i>
+                                <i class="fab fa-whatsapp me-3" style="color: #3e6ae1 !important; font-size: 1.5rem;"></i>
                                 <div class="text-start">
                                     <small class="d-block text-muted">WhatsApp Support</small>
-                                    <strong style="color: var(--primary); font-size: 1.2rem;">+971 50 XXX XXXX</strong>
+                                    <strong style="color: #3e6ae1 !important; font-size: 1.2rem;">+971 50 XXX XXXX</strong>
                                 </div>
                             </div>
                         </div>
                         <div class="mt-auto">
-                            <a href="tel:+971000000000" class="btn btn-gradient-primary w-100">
+                            <a href="tel:+971000000000" class="w-100 btn" style="background-color: #3e6ae1 !important; color: white !important; border: none !important; border-radius: 8px; padding: 0.75rem 1.5rem; font-weight: 500;">
                                 <i class="fa fa-phone me-2"></i> Call Now
                             </a>
                         </div>
@@ -523,34 +525,33 @@
                 </div>
             </div>
             
-            <!-- Visit Office Card -->
+            <!-- Visit Our Office Card (same for others) -->
             <div class="col-md-4">
-                <div class="card border-0 shadow-sm hover-lift equal-height-card card-border-top-secondary">
+                <div class="card border-0 shadow-sm hover-lift equal-height-card" style="border-top: 5px solid #3e6ae1 !important;">
                     <div class="card-body p-4 text-center d-flex flex-column">
-                        <div class="icon-circle" style="background: linear-gradient(135deg, var(--secondary), #69db7c);">
+                        <div class="rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center" style="background: #3e6ae1 !important; width: 70px; height: 70px;">
                             <i class="fa fa-building fa-2x text-white"></i>
                         </div>
-                        <h4 class="fw-bold mb-3" style="color: var(--text-dark);">Visit Our Office</h4>
+                        <h4 class="fw-bold mb-3" style="color: #3e6ae1 !important;">Visit Our Office</h4>
                         <p class="text-muted mb-4">Meet us at our service center in Al Baraha, Deira, Dubai</p>
                         <div class="mb-4 text-start">
                             <div class="d-flex align-items-start mb-3">
-                                <i class="fa fa-map-marker-alt me-3 mt-1" style="color: var(--secondary);"></i>
+                                <i class="fa fa-map-marker-alt me-3 mt-1" style="color: #3e6ae1 !important; font-size: 1.5rem;"></i>
                                 <div>
-                                    <h6 class="mb-1" style="color: var(--primary);">Office Address</h6>
+                                    <h6 class="mb-1" style="color: #3e6ae1 !important;">Office Address</h6>
                                     <p class="mb-0 text-muted small">Al Baraha Area, Deira<br>Dubai, United Arab Emirates</p>
                                 </div>
                             </div>
                             <div class="d-flex align-items-start">
-                                <i class="fa fa-clock me-3 mt-1" style="color: var(--secondary);"></i>
+                                <i class="fa fa-clock me-3 mt-1" style="color: #3e6ae1 !important; font-size: 1.5rem;"></i>
                                 <div>
-                                    <h6 class="mb-1" style="color: var(--primary);">Office Hours</h6>
+                                    <h6 class="mb-1" style="color: #3e6ae1 !important;">Office Hours</h6>
                                     <p class="mb-0 text-muted small">Sunday - Thursday: 8 AM - 8 PM<br>Friday: 9 AM - 6 PM</p>
                                 </div>
                             </div>
                         </div>
                         <div class="mt-auto">
-                            <a href="#mapSection" class="btn w-100" 
-                               style="background: linear-gradient(90deg, var(--secondary), #69db7c); color: white; border-radius: 10px; padding: 0.75rem;">
+                            <a href="#mapSection" class="w-100 btn" style="background-color: #3e6ae1 !important; color: white !important; border: none !important; border-radius: 8px; padding: 0.75rem 1.5rem; font-weight: 500;">
                                 <i class="fa fa-map-marker-alt me-2"></i> View Location
                             </a>
                         </div>
@@ -560,33 +561,33 @@
             
             <!-- Online Booking Card -->
             <div class="col-md-4">
-                <div class="card border-0 shadow-sm hover-lift equal-height-card card-border-top-accent">
+                <div class="card border-0 shadow-sm hover-lift equal-height-card" style="border-top: 5px solid #3e6ae1 !important;">
                     <div class="card-body p-4 text-center d-flex flex-column">
-                        <div class="icon-circle" style="background: linear-gradient(135deg, var(--accent), #fcc419);">
+                        <div class="rounded-circle mx-auto mb-3 d-flex align-items-center justify-content-center" style="background: #3e6ae1 !important; width: 70px; height: 70px;">
                             <i class="fa fa-calendar-alt fa-2x text-white"></i>
                         </div>
-                        <h4 class="fw-bold mb-3" style="color: var(--text-dark);">Online Booking</h4>
+                        <h4 class="fw-bold mb-3" style="color: #3e6ae1 !important;">Online Booking</h4>
                         <p class="text-muted mb-4">Schedule service appointments online anytime, anywhere</p>
                         <div class="mb-4">
                             <div class="d-flex align-items-center justify-content-center mb-3">
-                                <i class="fa fa-check-circle me-3" style="color: var(--accent);"></i>
+                                <i class="fa fa-check-circle me-3" style="color: #3e6ae1 !important; font-size: 1.5rem;"></i>
                                 <div class="text-start">
                                     <small class="d-block text-muted">Instant Confirmation</small>
-                                    <strong style="color: var(--primary);">Immediate Response</strong>
+                                    <strong style="color: #3e6ae1 !important;">Immediate Response</strong>
                                 </div>
                             </div>
                             <div class="d-flex align-items-center justify-content-center">
-                                <i class="fa fa-clock me-3" style="color: var(--accent);"></i>
+                                <i class="fa fa-clock me-3" style="color: #3e6ae1 !important; font-size: 1.5rem;"></i>
                                 <div class="text-start">
                                     <small class="d-block text-muted">Quick Response</small>
-                                    <strong style="color: var(--primary);">Within 60 Minutes</strong>
+                                    <strong style="color: #3e6ae1 !important;">Within 60 Minutes</strong>
                                 </div>
                             </div>
                         </div>
                         <div class="mt-auto">
                             <button onclick="document.getElementById('contactForm').scrollIntoView({behavior: 'smooth'})" 
-                                    class="btn w-100"
-                                    style="background: linear-gradient(90deg, var(--accent), #fcc419); color: white; border-radius: 10px; padding: 0.75rem;">
+                                    class="w-100 btn"
+                                    style="background-color: #3e6ae1 !important; color: white !important; border: none !important; border-radius: 8px; padding: 0.75rem 1.5rem; font-weight: 500;">
                                 <i class="fa fa-book me-2"></i> Book Online Now
                             </button>
                         </div>
@@ -601,7 +602,7 @@
 <section id="mapSection" class="py-5" style="background-color: var(--bg-light);">
     <div class="container">
         <div class="text-center mb-5">
-            <h2 class="display-5 fw-bold mb-3" style="color: var(--primary);">Our Location</h2>
+            <h2 class="display-5 fw-bold mb-3" style="color: #3e6ae1 !important;">Our Location</h2>
             <p class="lead text-muted">Find us at our service center in Al Baraha, Deira, Dubai</p>
         </div>
         
@@ -629,7 +630,7 @@
             <div class="col-lg-4">
                 <div class="card border-0 shadow-lg h-100">
                     <div class="card-header border-0 py-4" 
-                         style="background: linear-gradient(90deg, var(--primary), var(--primary-dark));">
+                         style="background: #3e6ae1 !important;">
                         <h5 class="mb-0 text-white">
                             <i class="fa fa-info-circle me-2"></i> Location Details
                         </h5>
@@ -637,7 +638,7 @@
                     <div class="card-body p-4">
                         <div class="mb-4">
                             <h6 class="mb-3" style="color: var(--text-dark);">
-                                <i class="fa fa-map-marker-alt me-2" style="color: var(--accent);"></i>Address
+                                <i class="fa fa-map-marker-alt me-2" style="color: #3e6ae1 !important;"></i>Address
                             </h6>
                             <div class="p-3 rounded-3" style="background-color: var(--bg-light);">
                                 <p class="mb-0 text-muted">
@@ -648,54 +649,54 @@
                         </div>
                         
                         <div class="mb-4">
-                            <h6 class="mb-3" style="color: var(--text-dark);">
-                                <i class="fa fa-clock me-2" style="color: var(--accent);"></i>Office Hours
+                            <h6 class="mb-3" style="color: #3e6ae1 !important;">
+                                <i class="fa fa-clock me-2" style="color: #3e6ae1 !important;"></i>Office Hours
                             </h6>
                             <ul class="list-unstyled">
                                 <li class="mb-2 d-flex justify-content-between">
                                     <span class="text-muted">Sun - Thu</span>
-                                    <strong style="color: var(--primary);">8:00 AM - 10:00 PM</strong>
+                                    <strong style="color: #3e6ae1 !important;">8:00 AM - 10:00 PM</strong>
                                 </li>
                                 <li class="mb-2 d-flex justify-content-between">
                                     <span class="text-muted">Friday</span>
-                                    <strong style="color: var(--primary);">9:00 AM - 8:00 PM</strong>
+                                    <strong style="color: #3e6ae1 !important;">9:00 AM - 8:00 PM</strong>
                                 </li>
                                 <li class="mb-2 d-flex justify-content-between">
                                     <span class="text-muted">Saturday</span>
-                                    <strong style="color: var(--primary);">9:00 AM - 6:00 PM</strong>
+                                    <strong style="color: #3e6ae1 !important;">9:00 AM - 6:00 PM</strong>
                                 </li>
                             </ul>
                         </div>
                         
                         <div class="mb-4">
                             <h6 class="mb-3" style="color: var(--text-dark);">
-                                <i class="fa fa-phone me-2" style="color: var(--accent);"></i>Contact
+                                <i class="fa fa-phone me-2" style="color: #3e6ae1 !important;"></i>Contact
                             </h6>
                             <div class="d-flex align-items-center mb-3">
                                 <div class="rounded-circle d-flex align-items-center justify-content-center me-3" 
-                                     style="width: 40px; height: 40px; background-color: var(--primary-light); color: white;">
-                                    <i class="fa fa-phone"></i>
+                                     style="width: 40px; height: 40px; background-color: #3e6ae1 !important;">
+                                    <i class="fa fa-phone text-white"></i>
                                 </div>
                                 <div>
                                     <small class="d-block text-muted">Phone Number</small>
-                                    <strong style="color: var(--primary);">+971 4 XXX XXXX</strong>
+                                    <strong style="color: #3e6ae1 !important;">+971 4 XXX XXXX</strong>
                                 </div>
                             </div>
                             <div class="d-flex align-items-center">
                                 <div class="rounded-circle d-flex align-items-center justify-content-center me-3" 
-                                     style="width: 40px; height: 40px; background-color: var(--bg-light);">
-                                    <i class="fab fa-whatsapp" style="color: #25D366;"></i>
+                                     style="width: 40px; height: 40px; background-color: #3e6ae1 !important;">
+                                    <i class="fab fa-whatsapp text-white"></i>
                                 </div>
                                 <div>
                                     <small class="d-block text-muted">WhatsApp</small>
-                                    <strong style="color: var(--primary);">+971 50 XXX XXXX</strong>
+                                    <strong style="color: #3e6ae1 !important;">+971 50 XXX XXXX</strong>
                                 </div>
                             </div>
                         </div>
                         
                         <div>
                             <h6 class="mb-3" style="color: var(--text-dark);">
-                                <i class="fa fa-map-signs me-2" style="color: var(--accent);"></i>Service Areas
+                                <i class="fa fa-map-signs me-2" style="color: #3e6ae1 !important;"></i>Service Areas
                             </h6>
                             <div class="d-flex flex-wrap gap-2">
                                 <span class="location-badge">Deira</span>
@@ -719,15 +720,15 @@
             <div class="col-12">
                 <div class="card border-0 shadow-sm" style="border-radius: 15px; background-color: var(--bg-white);">
                     <div class="card-body p-4">
-                        <h5 class="mb-4" style="color: var(--primary);">
-                            <i class="fa fa-signs-post me-2"></i>Nearby Landmarks
+                        <h5 class="mb-4" style="color: #3e6ae1 !important;">
+                            <i class="fa fa-signs-post me-2" style="color: #3e6ae1 !important;"></i>Nearby Landmarks
                         </h5>
                         <div class="row">
                             <div class="col-md-3 col-6 mb-3">
                                 <div class="d-flex align-items-center">
                                     <div class="rounded-circle d-flex align-items-center justify-content-center me-3" 
-                                         style="width: 40px; height: 40px; background-color: var(--bg-light);">
-                                        <i class="fa fa-hospital" style="color: var(--secondary);"></i>
+                                         style="width: 40px; height: 40px; background-color: #3e6ae1 !important;">
+                                        <i class="fa fa-hospital" style="color: white !important;"></i>
                                     </div>
                                     <div>
                                         <small class="d-block" style="color: var(--text-light);">Al Baraha Hospital</small>
@@ -738,8 +739,8 @@
                             <div class="col-md-3 col-6 mb-3">
                                 <div class="d-flex align-items-center">
                                     <div class="rounded-circle d-flex align-items-center justify-content-center me-3" 
-                                         style="width: 40px; height: 40px; background-color: var(--bg-light);">
-                                        <i class="fa fa-train" style="color: var(--primary);"></i>
+                                         style="width: 40px; height: 40px; background-color: #3e6ae1 !important;">
+                                        <i class="fa fa-train" style="color: white !important;"></i>
                                     </div>
                                     <div>
                                         <small class="d-block" style="color: var(--text-light);">Union Metro Station</small>
@@ -750,8 +751,8 @@
                             <div class="col-md-3 col-6 mb-3">
                                 <div class="d-flex align-items-center">
                                     <div class="rounded-circle d-flex align-items-center justify-content-center me-3" 
-                                         style="width: 40px; height: 40px; background-color: var(--bg-light);">
-                                        <i class="fa fa-shopping-bag" style="color: var(--accent);"></i>
+                                         style="width: 40px; height: 40px; background-color: #3e6ae1 !important;">
+                                        <i class="fa fa-shopping-bag" style="color: white !important;"></i>
                                     </div>
                                     <div>
                                         <small class="d-block" style="color: var(--text-light);">Naif Souk</small>
@@ -762,8 +763,8 @@
                             <div class="col-md-3 col-6 mb-3">
                                 <div class="d-flex align-items-center">
                                     <div class="rounded-circle d-flex align-items-center justify-content-center me-3" 
-                                         style="width: 40px; height: 40px; background-color: var(--bg-light);">
-                                        <i class="fa fa-bus" style="color: var(--primary-dark);"></i>
+                                         style="width: 40px; height: 40px; background-color: #3e6ae1 !important;">
+                                        <i class="fa fa-bus" style="color: white !important;"></i>
                                     </div>
                                     <div>
                                         <small class="d-block" style="color: var(--text-light);">Al Sabkha Bus Station</small>

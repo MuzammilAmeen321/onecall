@@ -17,7 +17,7 @@
 
     /* Hero Section */
     .ac-hero {
-        background: linear-gradient(rgba(0, 102, 204, 0.9), rgba(0, 102, 204, 0.95)),
+        background: linear-gradient(rgba(0, 102, 204, 0.9), rgba(0, 102, 204, 0.66)),
                     url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
         background-size: cover;
         background-position: center;
@@ -454,7 +454,7 @@
         <div class="row align-items-center ac-hero-content">
             <div class="col-lg-8 text-white">
                 <h1 class="display-5 fw-bold mb-3">Professional AC & Ventilation Services in Dubai</h1>
-                <p class="lead mb-4" style="font-size: 1.2rem;">
+                <p class="lead mb-4" style="font-size: 1.2rem; color: white;">
                     Expert air conditioning repair, installation, maintenance & ventilation solutions for homes and businesses across Dubai.
                 </p>
                 <div class="d-flex flex-wrap gap-3">

@@ -6,7 +6,7 @@
             <div class="col-lg-8">
                 <div class="content-wrapper">
                     <div class="section-header mb-4">
-                        <span class="section-label">Why Choose Us?</span>
+                     <span class="section-label" style="background: #3e6ae1 !important; color: white !important;">Why Choose Us?</span>
                         <h2 class="section-title fw-bold mt-2">
                             Reliable Property Maintenance in Dubai
                         </h2>
@@ -19,8 +19,8 @@
                     <div class="row g-3 mb-4">
                         <div class="col-md-6">
                             <div class="d-flex align-items-start p-3 bg-gradient rounded-3">
-                                <div class=" bg-gradient bg-opacity-10 p-2 rounded-3 me-3">
-                                    <i class="fas fa-building text-danger fs-5"></i>
+                                <div class="bg-gradient bg-opacity-10 p-2 rounded-3 me-3">
+                                    <i class="fas fa-building" style="color: #3e6ae1 !important;"></i>
                                 </div>
                                 <div class="bg-gradient">
                                     <h5 class="fw-bold mb-1">Residential & Commercial</h5>
@@ -31,7 +31,7 @@
                         <div class="col-md-6">
                             <div class="d-flex align-items-start p-3 bg-gradient rounded-3">
                                 <div class="bg-success bg-opacity-10 p-2 rounded-3 me-3">
-                                    <i class="fas fa-award text-danger fs-5"></i>
+                                    <i class="fas fa-award" style="color: #3e6ae1 !important;"></i>
                                 </div>
                                 <div class="bg-gradient">
                                     <h5 class="fw-bold mb-1">10+ Years Experience</h5>
@@ -42,7 +42,7 @@
                         <div class="col-md-6">
                             <div class="d-flex align-items-start p-3 bg-gradient rounded-3">
                                 <div class="bg-info bg-opacity-10 p-2 rounded-3 me-3">
-                                    <i class="fas fa-user-tie text-danger fs-5"></i>
+                                    <i class="fas fa-user-tie" style="color: #3e6ae1 !important;"></i>
                                 </div>
                                 <div class="bg-gradient">
                                     <h5 class="fw-bold mb-1">Licensed Professionals</h5>
@@ -51,9 +51,9 @@
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <div class="d-flex align-items-start p-3  bg-gradient rounded-3">
+                            <div class="d-flex align-items-start p-3 bg-gradient rounded-3">
                                 <div class="bg-warning bg-opacity-10 p-2 rounded-3 me-3">
-                                    <i class="fas fa-handshake text-danger fs-5"></i>
+                                    <i class="fas fa-handshake" style="color: #3e6ae1 !important;"></i>
                                 </div>
                                 <div>
                                     <h5 class="fw-bold mb-1">Free Estimation</h5>
@@ -64,11 +64,11 @@
                     </div>
                     
                     <div class="d-flex gap-3">
-                        <a href="tel:+971501234567" class="btn btn-primary d-inline-flex align-items-center">
+                        <a href="tel:+971501234567" class="btn btn-primary d-inline-flex align-items-center" style="background: #3e6ae1 !important; border-color: #3e6ae1 !important;">
                             <i class="fas fa-phone-alt me-2"></i>
                             <span>Call Now</span>
                         </a>
-                        <a href="https://wa.me/971501234567" target="_blank" class="btn btn-success d-inline-flex align-items-center">
+                        <a href="https://wa.me/971501234567" target="_blank" class="btn btn-success d-inline-flex align-items-center" style="background: #3e6ae1 !important; border-color: #3e6ae1 !important;">
                             <i class="fab fa-whatsapp me-2"></i>
                             <span>WhatsApp</span>
                         </a>
@@ -83,10 +83,11 @@
                         <img src="{{ asset('images/workers/red.png') }}" 
                              class="img-fluid"
                              alt="Professional Electrician"
-                             loading="lazy">
+                             loading="lazy"
+                             style="border: 5px solid #3e6ae1 !important;">
                     </div>
                     <div class="position-absolute bottom-0 start-50 translate-middle-x mb-3">
-                        <div class="section-label text-white px-4 py-2 rounded-pill shadow d-flex align-items-center gap-2">
+                        <div class="section-label text-white px-4 py-2 rounded-pill shadow d-flex align-items-center gap-2" style="background: #3e6ae1 !important;">
                             <span class="fw-bold fs-5">10+</span>
                             <span class="fw-medium">Years Experience</span>
                         </div>

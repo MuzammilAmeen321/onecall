@@ -18,7 +18,7 @@
 
     /* Hero Section */
     .cctv-hero {
-        background: linear-gradient(rgba(21, 101, 192, 0.9), rgba(21, 101, 192, 0.95)),
+         background: linear-gradient(rgba(0, 102, 204, 0.9), rgba(0, 102, 204, 0.66)),
                     url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80');
         background-size: cover;
         background-position: center;
@@ -459,7 +459,7 @@
         <div class="row align-items-center cctv-hero-content">
             <div class="col-lg-8 text-white">
                 <h1 class="display-5 fw-bold mb-3">Professional CCTV Camera Installation in Dubai</h1>
-                <p class="lead mb-4" style="font-size: 1.2rem;">
+                <p class="lead mb-4" style="font-size: 1.2rem; color: white;">
                     Complete security solutions: CCTV cameras, surveillance systems, access control, and remote monitoring for homes & businesses across Dubai.
                 </p>
                 <div class="d-flex flex-wrap gap-3">

@@ -5,9 +5,9 @@
             <!-- Section Header -->
             <div class="row justify-content-center mb-5">
                 <div class="col-lg-8 text-center">
-                    <h2 class="display-5 fw-bold mb-3">
-                        Customer <span class="text">Feedback</span>
-                    </h2>
+                   <h2 class="display-5 fw-bold mb-3">
+    Customer <span style="color: #3e6ae1 !important;">Feedback</span>
+</h2>
                     <p class="lead text-muted">
                         What our clients say about our services
                     </p>
