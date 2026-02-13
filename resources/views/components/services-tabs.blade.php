@@ -1,447 +1,235 @@
-<!-- Professional Services Section -->
-<section class="professional-services py-3">
-    <div class="container">
-        <!-- Services Row - Auto Size with Attractive Effects -->
-        <div class="services-container">
-            <!-- Electrician -->
-            <div class="service-glow-card" data-service="electrician">
-                <div class="service-glow-icon">
-                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);">
-                        <i class="fas fa-bolt"></i>
-                    </div>
-                    <div class="pulse-effect"></div>
-                </div>
-                <div class="service-glow-title">Electrician</div>
-            </div>
-            
-            <!-- A/C Service -->
-            <div class="service-glow-card" data-service="ac">
-                <div class="service-glow-icon">
-                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);">
-                        <i class="fas fa-snowflake"></i>
-                    </div>
-                    <div class="pulse-effect"></div>
-                </div>
-                <div class="service-glow-title">A/C Service</div>
-            </div>
-            
-            <!-- UPS -->
-            <div class="service-glow-card" data-service="ups">
-                <div class="service-glow-icon">
-                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);">
-                        <i class="fas fa-car-battery"></i>
-                    </div>
-                    <div class="pulse-effect"></div>
-                </div>
-                <div class="service-glow-title">UPS</div>
-            </div>
-            
-            <!-- Painter -->
-            <div class="service-glow-card" data-service="painter">
-                <div class="service-glow-icon">
-                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);">
-                        <i class="fas fa-paint-roller"></i>
-                    </div>
-                    <div class="pulse-effect"></div>
-                </div>
-                <div class="service-glow-title">Painter</div>
-            </div>
-            
-            <!-- Plumbing -->
-            <div class="service-glow-card" data-service="plumbing">
-                <div class="service-glow-icon">
-                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);">
-                        <i class="fas fa-wrench"></i>
-                    </div>
-                    <div class="pulse-effect"></div>
-                </div>
-                <div class="service-glow-title">Plumbing</div>
-            </div>
-            
-            <!-- CCTV -->
-            <div class="service-glow-card" data-service="cctv">
-                <div class="service-glow-icon">
-                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);">
-                        <i class="fas fa-video"></i>
-                    </div>
-                    <div class="pulse-effect"></div>
-                </div>
-                <div class="service-glow-title">CCTV</div>
-            </div>
-            
-            <!-- Tiling -->
-            <div class="service-glow-card" data-service="tiling">
-                <div class="service-glow-icon">
-                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);">
-                        <i class="fas fa-th-large"></i>
-                    </div>
-                    <div class="pulse-effect"></div>
-                </div>
-                <div class="service-glow-title">Tiling</div>
-            </div>
-            
-            <!-- Aluminum & Glass -->
-            <div class="service-glow-card" data-service="aluminum">
-                <div class="service-glow-icon">
-                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);">
-                        <i class="fas fa-glass-whiskey"></i>
-                    </div>
-                    <div class="pulse-effect"></div>
-                </div>
-                <div class="service-glow-title">Aluminum & Glass</div>
-            </div>
-            
-            <!-- Gypsum Work -->
-            <div class="service-glow-card" data-service="gypsum">
-                <div class="service-glow-icon">
-                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);">
-                        <i class="fas fa-hard-hat"></i>
-                    </div>
-                    <div class="pulse-effect"></div>
-                </div>
-                <div class="service-glow-title">Gypsum Work</div>
-            </div>
-            
-            <!-- EV Charger -->
-            <div class="service-glow-card" data-service="evcharger">
-                <div class="service-glow-icon">
-                    <div class="icon-wrapper" style="background: linear-gradient(135deg, #4a90e2 0%, #357abd 100%);">
-                        <i class="fas fa-charging-station"></i>
-                    </div>
-                    <div class="pulse-effect"></div>
-                </div>
-                <div class="service-glow-title">EV Charger</div>
-            </div>
-        </div>
+<!-- Home Services Categories Slider Section -->
+<section class="services-section">
+  <div class="container">
+    <!-- <h2>Our Home Services Categories</h2> -->
+
+    <div class="slider-wrapper">
+      <button class="slider-arrow prev" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+
+      <div class="cards-container" id="cardsContainer">
+        <a href="electric-work-in-dubai" class="service-card">
+          <div class="card-image" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&auto=format&fit=crop&q=80');"></div>
+          <div class="card-title">Electrical Work</div>
+        </a>
+
+        <a href="plumber-work-in-dubai" class="service-card">
+          <div class="card-image" style="background-image: url('https://media.istockphoto.com/id/1185738880/photo/plumber-using-a-wrench-to-repair-and-remove-the-water-supply-pipe-and-valve.jpg?s=612x612&w=0&k=20&c=MijvkBiRPb24ZbyOJtIeBo7_ASL0TSGAR1KKoTwFDVM="></div>
+          <div class="card-title">Plumbing</div>
+        </a>
+
+          <a href="painting" class="service-card">
+          <div class="card-image" style="background-image: url('https://media.istockphoto.com/id/1198703852/photo/painter-man-at-work.jpg?s=612x612&w=0&k=20&c=C_QRUjPe2qdqrjpRL2wcWS3ajGmBVB5qVgIXSRsYjgg="></div>
+          <div class="card-title">Painting</div>
+        </a>
+
+        
+
+        <a href="aluminum-glass-work" class="service-card">
+          <div class="card-image" style="background-image: url('https://www.windoors.tech/img/about.jpg"></div>
+          <div class="card-title">Aluminum Glass</div>
+        </a>
+
+      
+
+        <a href="ac-ventilation" class="service-card">
+          <div class="card-image" style="background-image: url('https://assistor.in/uploads/services/17123933957.jpg"></div>
+          <div class="card-title">AC Repair & Service</div>
+        </a>
+
+       
+
+        <a href="tesla-charging" class="service-card">
+          <div class="card-image" style="background-image: url('https://autovista24.autovistagroup.com/wp-content/uploads/sites/5/2021/09/GettyImages-1325838855-1024x585.jpg"></div>
+          <div class="card-title">Ev Charger</div>
+        </a>
+
+        <a href="tiling-in-dubai" class="service-card">
+          <div class="card-image" style="background-image: url('https://media.istockphoto.com/id/1319403503/photo/professional-tiler-making-new-floor.jpg?s=612x612&w=0&k=20&c=6lm76Oteb_5WmvkQuXBPJ6ejxMxR-DFF6apdfHsNfDc="></div>
+          <div class="card-title">Tiling</div>
+        </a>
+
+        <a href="gypsum-partition-ceiling-work-in-dubai" class="service-card">
+          <div class="card-image" style="background-image: url('https://cdn.cpdonline.co.uk/wp-content/uploads/2025/05/15161353/gypsum-scaled.jpg"></div>
+          <div class="card-title">Gypsum Work</div>
+        </a>
+
+        <a href="cctv-cameras" class="service-card">
+          <div class="card-image" style="background-image: url('https://static.vecteezy.com/system/resources/thumbnails/027/717/504/small/cctv-security-cameras-for-outdoor-use-installed-outside-the-house-the-alarm-system-ai-generative-photo.jpg"></div>
+          <div class="card-title">CCTV</div>
+        </a>
+
+      </div>
+
+      <button class="slider-arrow next" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
     </div>
+  </div>
 </section>
 
 <style>
+  /* Home Services Categories Slider */
+  .services-section {
+    padding: 70px 20px;
+    background: #f8f9fc;
+  }
 
-.professional-services::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: linear-gradient(135deg, #990000 0%, #000000 100%);
-}
+  .services-section .container {
+    max-width: 1240px;
+    margin: 0 auto;
+  }
 
-/* Services Container */
-.services-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
-    padding: 10px 0;
-}
-
-/* Mobile-first responsive design */
-.service-glow-card {
-    flex: 0 0 calc(20% - 12px); /* 5 items per row on mobile */
-    min-width: 0;
+  .services-section h2 {
     text-align: center;
-    padding: 12px 6px;
-    border-radius: 16px;
-    background: white;
-    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    cursor: pointer;
+    margin-bottom: 50px;
+    color: #011331e6;
+    font-size: 2.4rem;
+    font-weight: 700;
+  }
+
+  .slider-wrapper {
     position: relative;
     overflow: hidden;
-}
+  }
 
-.service-glow-card:hover {
-    transform: translateY(-6px) scale(1.05);
-    z-index: 10;
-}
-
-.service-glow-card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
-    transition: left 0.7s ease;
-}
-
-.service-glow-card:hover::before {
-    left: 100%;
-}
-
-.service-glow-icon {
-    position: relative;
-    width: 60px;
-    height: 60px;
-    margin: 0 auto 8px;
-}
-
-.icon-wrapper {
-    width: 100%;
-    height: 100%;
-    border-radius: 16px;
+  .cards-container {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    transition: transform 0.55s cubic-bezier(0.32, 0.72, 0, 1);
+    gap: 24px;
+  }
+
+  .service-card {
+    flex: 0 0 calc((100% - 48px) / 3);
+    background: white;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.07);
+    transition: all 0.35s ease;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    position: relative;           /* Important for absolute title */
+  }
+
+  .service-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 22px 48px rgba(0, 0, 0, 0.14);
+  }
+
+  .card-image {
+    height: 220px;                /* thoda zyada height di better proportion ke liye */
+    background-size: cover;
+    background-position: center;
     position: relative;
-    z-index: 2;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
-    transition: all 0.4s ease;
-}
+  }
 
-.service-glow-card:hover .icon-wrapper {
-    transform: rotateY(360deg);
-    box-shadow: 0 8px 20px rgba(153, 0, 0, 0.35);
-}
-
-.icon-wrapper i {
-    font-size: 22px;
+  .card-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 16px 12px;
+    margin: 0;
+    font-size: 1.22rem;
+    font-weight: 600;
     color: white;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-}
+    text-align: center;
+    background: linear-gradient(to top, rgba(0,0,0,0.75) 0%, rgba(0,0,0,0.35) 100%);
+    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  }
 
-.pulse-effect {
+  /* Arrows */
+  .slider-arrow {
     position: absolute;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 0;
-    height: 0;
+    transform: translateY(-50%);
+    width: 54px;
+    height: 54px;
+    background: rgba(255, 255, 255, 0.98);
+    border: none;
     border-radius: 50%;
-    background: rgba(7, 7, 7, 0.3);
-    opacity: 0;
-    transition: all 0.4s ease;
-}
-
-.service-glow-card:hover .pulse-effect {
-    width: 80px;
-    height: 80px;
-    opacity: 1;
-    animation: pulse 1.5s infinite;
-}
-
-.service-glow-title {
-    font-size: 11px;
-    font-weight: 800;
-    color: #222;
-    text-transform: uppercase;
-    letter-spacing: 0.3px;
+    font-size: 1.45rem;
+    color: #374151;
+    cursor: pointer;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
     transition: all 0.3s ease;
-    position: relative;
-    padding-top: 4px;
-    line-height: 1.2;
-    word-wrap: break-word;
-}
+    z-index: 40;
+  }
 
-.service-glow-title::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 25%;
-    width: 50%;
-    height: 2px;
-    background: linear-gradient(135deg, #990000 0%, #000000 100%);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-}
+  .slider-arrow:hover {
+    background: #2563eb;
+    color: white;
+    transform: translateY(-50%) scale(1.12);
+  }
 
-.service-glow-card:hover .service-glow-title {
-    color: #990000;
-    font-size: 12px;
-}
+  .slider-arrow.prev { left: -1px; }
+  .slider-arrow.next { right: -1px; }
 
-.service-glow-card:hover .service-glow-title::after {
-    opacity: 1;
-}
+  .slider-arrow:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+    transform: translateY(-50%);
+  }
 
-@keyframes pulse {
-    0% {
-        transform: translate(-50%, -50%) scale(0.8);
-        opacity: 0.8;
+  @media (max-width: 992px) {
+    .service-card {
+      flex: 0 0 calc((100% - 24px) / 2);
     }
-    100% {
-        transform: translate(-50%, -50%) scale(1.2);
-        opacity: 0;
-    }
-}
+  }
 
-/* ================= RESPONSIVE BREAKPOINTS ================= */
-
-/* Small Tablets (≥576px) */
-@media (min-width: 576px) {
-    .service-glow-card {
-        flex: 0 0 calc(16.666% - 12px); /* 6 items per row */
+  @media (max-width: 640px) {
+    .service-card {
+      flex: 0 0 88%;
     }
-    
-    .service-glow-icon {
-        width: 65px;
-        height: 65px;
+    .slider-arrow {
+      width: 48px;
+      height: 48px;
+      font-size: 1.3rem;
     }
-    
-    .icon-wrapper i {
-        font-size: 24px;
-    }
-    
-    .service-glow-title {
-        font-size: 11px;
-    }
-}
-
-/* Medium Tablets (≥768px) */
-@media (min-width: 768px) {
-    .services-container {
-        gap: 15px;
-    }
-    
-    .service-glow-card {
-        flex: 0 0 calc(12.5% - 15px); /* 8 items per row */
-        padding: 15px 8px;
-    }
-    
-    .service-glow-icon {
-        width: 70px;
-        height: 70px;
-    }
-    
-    .icon-wrapper i {
-        font-size: 26px;
-    }
-    
-    .service-glow-title {
-        font-size: 12px;
-    }
-}
-
-/* Large Tablets (≥992px) */
-@media (min-width: 992px) {
-    .service-glow-card {
-        flex: 0 0 calc(10% - 15px); /* 10 items per row - perfect for single line */
-        max-width: 110px;
-    }
-    
-    .service-glow-icon {
-        width: 75px;
-        height: 75px;
-    }
-    
-    .icon-wrapper i {
-        font-size: 28px;
-    }
-    
-    .service-glow-title {
-        font-size: 13px;
-    }
-}
-
-/* Desktops (≥1200px) */
-@media (min-width: 1200px) {
-    .services-container {
-        gap: 18px;
-    }
-    
-    .service-glow-card {
-        flex: 0 0 calc(10% - 18px);
-        padding: 18px 10px;
-        border-radius: 20px;
-    }
-    
-    .service-glow-icon {
-        width: 80px;
-        height: 80px;
-        margin: 0 auto 12px;
-    }
-    
-    .icon-wrapper {
-        border-radius: 20px;
-    }
-    
-    .icon-wrapper i {
-        font-size: 30px;
-    }
-    
-    .service-glow-title {
-        font-size: 14px;
-        padding-top: 6px;
-    }
-}
-
-/* Extra Large Screens (≥1400px) */
-@media (min-width: 1400px) {
-    .services-container {
-        gap: 20px;
-        padding: 20px 0;
-    }
-    
-    .service-glow-card {
-        flex: 0 0 calc(10% - 20px);
-    }
-}
-
-/* Service-specific hover colors */
-.service-glow-card[data-service="electrician"]:hover .service-glow-title {
-    color: #990000;
-}
-
-.service-glow-card[data-service="ac"]:hover .service-glow-title {
-    color: #000000;
-}
-
-.service-glow-card[data-service="ups"]:hover .service-glow-title {
-    color: #990000;
-}
-
-.service-glow-card[data-service="painter"]:hover .service-glow-title {
-    color: #000000;
-}
-
-.service-glow-card[data-service="plumbing"]:hover .service-glow-title {
-    color: #990000;
-}
-
-.service-glow-card[data-service="cctv"]:hover .service-glow-title {
-    color: #000000;
-}
-
-.service-glow-card[data-service="tiling"]:hover .service-glow-title {
-    color: #990000;
-}
-
-.service-glow-card[data-service="aluminum"]:hover .service-glow-title {
-    color: #000000;
-}
-
-.service-glow-card[data-service="gypsum"]:hover .service-glow-title {
-    color: #990000;
-}
-
-.service-glow-card[data-service="evcharger"]:hover .service-glow-title {
-    color: #000000;
-}
-
-/* Touch device optimizations */
-@media (hover: none) and (pointer: coarse) {
-    .service-glow-card:active {
-        transform: translateY(-4px) scale(1.03);
-        box-shadow: 0 8px 20px rgba(153, 0, 0, 0.2);
-    }
-    
-    .service-glow-card:active .icon-wrapper {
-        transform: rotateY(360deg);
-    }
-    
-    .service-glow-card:active .pulse-effect {
-        width: 80px;
-        height: 80px;
-        opacity: 1;
-        animation: pulse 1.5s infinite;
-    }
-}
-
-/* Prevent text selection */
-.service-glow-card {
-    -webkit-tap-highlight-color: transparent;
-    user-select: none;
-}
+    .slider-arrow.prev { left: 12px; }
+    .slider-arrow.next { right: 12px; }
+    .card-image { height: 200px; }
+  }
 </style>
+
+<script>
+  const container = document.getElementById('cardsContainer');
+  const prevBtn = document.getElementById('prevBtn');
+  const nextBtn = document.getElementById('nextBtn');
+
+  let currentIndex = 0;
+  const cardCount = document.querySelectorAll('.service-card').length;
+  let cardsPerView = 3;
+
+  function updateCardsPerView() {
+    if (window.innerWidth <= 640) cardsPerView = 1;
+    else if (window.innerWidth <= 992) cardsPerView = 2;
+    else cardsPerView = 3;
+    updateButtons();
+  }
+
+  function updateButtons() {
+    prevBtn.disabled = currentIndex === 0;
+    nextBtn.disabled = currentIndex >= cardCount - cardsPerView;
+  }
+
+  function slideTo(index) {
+    currentIndex = Math.max(0, Math.min(index, cardCount - cardsPerView));
+    const offset = -currentIndex * (100 / cardsPerView);
+    container.style.transform = `translateX(${offset}%)`;
+    updateButtons();
+  }
+
+  prevBtn.addEventListener('click', () => slideTo(currentIndex - 1));
+  nextBtn.addEventListener('click', () => slideTo(currentIndex + 1));
+
+  window.addEventListener('resize', () => {
+    updateCardsPerView();
+    slideTo(currentIndex);
+  });
+
+  // Initialize
+  updateCardsPerView();
+  slideTo(0);
+</script>
+
+<!-- Font Awesome (sirf tab add karna agar pehle se <head> mein nahi hai) -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->

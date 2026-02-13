@@ -339,7 +339,7 @@
                         </div>
                         <div class="col-md-4 text-md-end">
                             <a href="tel:+971XXXXXXXXX" class="btn btn-lg fw-bold px-4 py-3" 
-                               style="background: linear-gradient(135deg, #3e6ae1, #2a55c4) !important; border: none; color: white; border-radius: 50px; box-shadow: 0 6px 20px rgba(62,106,225,0.3);">
+                               style="background: linear-gradient(135deg, #111d45, #111d45) !important; border: none; color: white; border-radius: 50px; box-shadow: 0 6px 20px rgba(62,106,225,0.3);">
                                 <i class="bi bi-telephone-fill me-2"></i>
                                 Call Now
                             </a>

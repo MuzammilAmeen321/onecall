@@ -6,7 +6,7 @@
             <div class="col-lg-8">
                 <div class="content-wrapper">
                     <div class="section-header mb-4">
-                     <span class="section-label" style="background: #3e6ae1 !important; color: white !important;">Why Choose Us?</span>
+                     <span class="section-label" style="background: #111d45 !important; color: white !important;">Why Choose Us?</span>
                         <h2 class="section-title fw-bold mt-2">
                             Reliable Property Maintenance in Dubai
                         </h2>
@@ -64,11 +64,11 @@
                     </div>
                     
                     <div class="d-flex gap-3">
-                        <a href="tel:+971501234567" class="btn btn-primary d-inline-flex align-items-center" style="background: #3e6ae1 !important; border-color: #3e6ae1 !important;">
+                        <a href="tel:+971501234567" class="btn btn-primary d-inline-flex align-items-center" style="background: #111d45 !important; border-color: #3e6ae1 !important;">
                             <i class="fas fa-phone-alt me-2"></i>
                             <span>Call Now</span>
                         </a>
-                        <a href="https://wa.me/971501234567" target="_blank" class="btn btn-success d-inline-flex align-items-center" style="background: #3e6ae1 !important; border-color: #3e6ae1 !important;">
+                        <a href="https://wa.me/971501234567" target="_blank" class="btn btn-success d-inline-flex align-items-center" style="background: #111d45 !important; border-color: #3e6ae1 !important;">
                             <i class="fab fa-whatsapp me-2"></i>
                             <span>WhatsApp</span>
                         </a>
@@ -87,7 +87,7 @@
                              style="border: 5px solid #3e6ae1 !important;">
                     </div>
                     <div class="position-absolute bottom-0 start-50 translate-middle-x mb-3">
-                        <div class="section-label text-white px-4 py-2 rounded-pill shadow d-flex align-items-center gap-2" style="background: #3e6ae1 !important;">
+                        <div class="section-label text-white px-4 py-2 rounded-pill shadow d-flex align-items-center gap-2" style="background: #111d45 !important;">
                             <span class="fw-bold fs-5">10+</span>
                             <span class="fw-medium">Years Experience</span>
                         </div>

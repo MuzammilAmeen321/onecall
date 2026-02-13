@@ -33,7 +33,7 @@
                 <!-- Company Info -->
                 <div class="footer-col">
                     <div class="footer-logo mb-3">
-                       <img src="{{ asset('images/logo/redlogo.png') }}" 
+                       <img src="{{ asset('images/logo/wobglogo.png') }}" 
                              alt="Technical Services in Dubai" 
                              class="img-fluid"
                              style="max-width: 200px;">
@@ -83,7 +83,7 @@
                             </div>
                             <div class="contact-text">
                                 <span class="contact-label" style="font-size: 0.85rem; color: rgba(255, 255, 255, 0.6);">Call Now</span>
-                                <a href="tel:+971582309268" class="contact-value" style="color: white; text-decoration: none; font-size: 0.95rem;">+971 58 230 9268</a>
+                                <a href="tel:+971582309268" class="contact-value" style="color: white; text-decoration: none; font-size: 0.95rem;">+971 509227536</a>
                             </div>
                         </div>
                         <div class="contact-item" style="display: flex; align-items: flex-start; gap: 15px;">
@@ -92,7 +92,7 @@
                             </div>
                             <div class="contact-text">
                                 <span class="contact-label" style="font-size: 0.85rem; color: rgba(255, 255, 255, 0.6);">WhatsApp</span>
-                                <a href="https://wa.me/971582309268" class="contact-value" style="color: white; text-decoration: none; font-size: 0.95rem;">+971 58 230 9268</a>
+                                <a href="https://wa.me/971582309268" class="contact-value" style="color: white; text-decoration: none; font-size: 0.95rem;">+971 509227536</a>
                             </div>
                         </div>
                         <div class="contact-item" style="display: flex; align-items: flex-start; gap: 15px;">
@@ -101,7 +101,7 @@
                             </div>
                             <div class="contact-text">
                                 <span class="contact-label" style="font-size: 0.85rem; color: rgba(255, 255, 255, 0.6);">Email</span>
-                                <a href="mailto:info@arytechnicalservice.com" class="contact-value" style="color: white; text-decoration: none; font-size: 0.95rem;">info@arytechnicalservice.com</a>
+                                <a href="mailto:info@arytechnicalservice.com" class="contact-value" style="color: white; text-decoration: none; font-size: 0.95rem;">        info@onecall.ae</a>
                             </div>
                         </div>
                         <div class="contact-item" style="display: flex; align-items: flex-start; gap: 15px;">
@@ -110,7 +110,7 @@
                             </div>
                             <div class="contact-text">
                                 <span class="contact-label" style="font-size: 0.85rem; color: rgba(255, 255, 255, 0.6);">Address</span>
-                                <span class="contact-value" style="color: white; font-size: 0.95rem;">AI Quoz Industrial Area 2 - Dubai - UAE</span>
+                                <span class="contact-value" style="color: white; font-size: 0.95rem;">Al quoz Industrial area 4 Dubai UAE</span>
                             </div>
                         </div>
                     </div>

@@ -13,7 +13,7 @@
         --text-light: var(--tesla-gray);
         --bg-white: var(--tesla-white);
         --border: #e0e0e0;
-        --primary-hover: #5b8aff;
+        --primary-hover: #111d45;
     }
   body {
         font-family: 'Roboto', Arial, sans-serif;
@@ -39,16 +39,16 @@
     .btn{
         border-radius: 0;
     }
-    .btn-primary {
-        background: linear-gradient(135deg, var(--primary-light), var(--primary-dark));
-        color: white;
-        box-shadow: 0 4px 15px rgba(77, 171, 247, 0.2);
-        border-radius: 0 !important;
-    }
+   .btn-primary {
+    background: linear-gradient(135deg, #1e2a5e, #111d45);  /* Light navy → deep #111d45 */
+    color: white;
+    box-shadow: 0 4px 15px rgba(17, 29, 69, 0.3);  /* Shadow ko bhi #111d45 ke hisaab se adjust kiya (rgba version) */
+    border-radius: 0 !important;
+}
     
     .btn-primary:hover {
         transform: translateY(-2px);
-        box-shadow: 0 6px 20px rgba(77, 171, 247, 0.3);
+        box-shadow: 0 4px 15px rgba(17, 29, 69, 0.3);
         color: white;
     }
     .text{

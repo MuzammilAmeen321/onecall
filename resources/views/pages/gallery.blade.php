@@ -317,7 +317,7 @@
     <section class="gallery-header">
         <div class="container">
             <h1>Our Project Gallery</h1>
-            <p>Explore our portfolio of completed projects across Dubai. From AC installations to Tesla charger setups, see our quality workmanship in action.</p>
+            <p class="text-white">Explore our portfolio of completed projects across Dubai. From AC installations to Tesla charger setups, see our quality workmanship in action.</p>
         </div>
     </section>
     

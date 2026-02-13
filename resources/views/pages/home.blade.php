@@ -277,7 +277,7 @@
                             <i class="fas fa-phone-alt me-2" aria-hidden="true"></i>
                             Call Now
                         </a>
-                        <a href="/services" class="btn btn-outline-danger" aria-label="View All Our Services">
+                        <a href="/services" class="btn btn-primary" aria-label="View All Our Services">
                             <i class="fas fa-list me-2" aria-hidden="true"></i>
                             View All Services
                         </a>

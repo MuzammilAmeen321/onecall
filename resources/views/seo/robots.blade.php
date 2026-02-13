@@ -1,6 +1,8 @@
 User-agent: *
 Allow: /
+
 Disallow: /admin/
 Disallow: /dashboard/
 Disallow: /cgi-bin/
-Sitemap: {{ url('/sitemap.xml') }}
+
+Sitemap: {{ rtrim(config('app.url'), '/') }}/sitemap.xml

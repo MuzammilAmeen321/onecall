@@ -402,7 +402,7 @@
                                             <div>
                                                 <small class="d-block text-muted mb-1">Emergency Line</small>
                                                 <strong style="color: var(--primary-dark); font-size: 0.95rem;">
-                                                    +971 4 XXX XXXX
+                                                    +971 509227536
                                                 </strong>
                                             </div>
                                         </div>
@@ -415,7 +415,7 @@
                                             <div>
                                                 <small class="d-block text-muted mb-1">WhatsApp</small>
                                                 <strong style="color: var(--primary-dark); font-size: 0.95rem;">
-                                                    +971 50 XXX XXXX
+                                                    +971 509227536
                                                 </strong>
                                             </div>
                                         </div>
@@ -424,7 +424,7 @@
                                     <div class="col-6">
                                         <div class="d-flex align-items-start mb-3">
                                             <div class="rounded-circle d-flex align-items-center justify-content-center me-3" 
-                                                 style="width: 36px; height: 36px; background-color: var(--accent);">
+                                                 style="width: 36px; height: 36px; background-color: var(--primary);">
                                                 <i class="fa fa-envelope text-white" style="font-size: 0.9rem;"></i>
                                             </div>
                                             <div>
@@ -435,17 +435,20 @@
                                             </div>
                                         </div>
                                         
-                                        <div class="d-flex align-items-start">
-                                            <div class="rounded-circle d-flex align-items-center justify-content-center me-3" 
-                                                 style="width: 36px; height: 36px; background-color: var(--primary-dark);">
-                                                <i class="fa fa-map-marker-alt text-white" style="font-size: 0.9rem;"></i>
-                                            </div>
-                                            <div>
-                                                <small class="d-block text-muted mb-1">Location</small>
-                                                <strong style="color: var(--primary-dark); font-size: 0.95rem;">
-                                                    Deira, Dubai
-                                                </strong>
-                                            </div>
+                                      <div class="d-flex align-items-start">
+<div class="d-flex align-items-start">
+  <div class="rounded-circle d-flex align-items-center justify-content-center me-4"  me-3 → me-4 ya me-5
+       style="width: 36px; height: 36px; background-color: var(--primary); flex-shrink: 0;">
+    <i class="fa-solid fa-location-dot text-white"
+       style="font-size: 1rem; line-height: 1; transform: translateY(-1px);"></i>
+  </div>
+  <div>
+    <small class="d-block text-muted mb-1">Location</small>
+    <strong style="color: var(--primary-dark); font-size: 0.95rem;">
+      Al quoz Industrial area 4 Dubai UAE
+    </strong>
+  </div>
+</div>
                                         </div>
                                     </div>
                                 </div>
@@ -505,14 +508,14 @@
                                 <i class="fa fa-phone me-3" style="color: #3e6ae1 !important; font-size: 1.5rem;"></i>
                                 <div class="text-start">
                                     <small class="d-block text-muted">24/7 Emergency Line</small>
-                                    <strong style="color: #3e6ae1 !important; font-size: 1.2rem;">+971 4 XXX XXXX</strong>
+                                    <strong style="color: #3e6ae1 !important; font-size: 1.2rem;">+971 509227536</strong>
                                 </div>
                             </div>
                             <div class="d-flex align-items-center justify-content-center">
                                 <i class="fab fa-whatsapp me-3" style="color: #3e6ae1 !important; font-size: 1.5rem;"></i>
                                 <div class="text-start">
                                     <small class="d-block text-muted">WhatsApp Support</small>
-                                    <strong style="color: #3e6ae1 !important; font-size: 1.2rem;">+971 50 XXX XXXX</strong>
+                                    <strong style="color: #3e6ae1 !important; font-size: 1.2rem;">+971 509227536</strong>
                                 </div>
                             </div>
                         </div>
@@ -539,7 +542,7 @@
                                 <i class="fa fa-map-marker-alt me-3 mt-1" style="color: #3e6ae1 !important; font-size: 1.5rem;"></i>
                                 <div>
                                     <h6 class="mb-1" style="color: #3e6ae1 !important;">Office Address</h6>
-                                    <p class="mb-0 text-muted small">Al Baraha Area, Deira<br>Dubai, United Arab Emirates</p>
+                                    <p class="mb-0 text-muted small"> Al quoz Industrial area 4 Dubai UAE</p>
                                 </div>
                             </div>
                             <div class="d-flex align-items-start">
@@ -603,7 +606,9 @@
     <div class="container">
         <div class="text-center mb-5">
             <h2 class="display-5 fw-bold mb-3" style="color: #3e6ae1 !important;">Our Location</h2>
-            <p class="lead text-muted">Find us at our service center in Al Baraha, Deira, Dubai</p>
+            <p class="lead text-muted">Find us at our service center in 
+                 Al quoz Industrial area 4 Dubai UAE
+            </p>
         </div>
         
         <div class="row g-4 align-items-stretch">
@@ -642,8 +647,7 @@
                             </h6>
                             <div class="p-3 rounded-3" style="background-color: var(--bg-light);">
                                 <p class="mb-0 text-muted">
-                                    Al Baraha Area, Deira<br>
-                                    Dubai, United Arab Emirates
+                                     Al quoz Industrial <br> area 4 Dubai UAE
                                 </p>
                             </div>
                         </div>
@@ -679,7 +683,7 @@
                                 </div>
                                 <div>
                                     <small class="d-block text-muted">Phone Number</small>
-                                    <strong style="color: #3e6ae1 !important;">+971 4 XXX XXXX</strong>
+                                    <strong style="color: #3e6ae1 !important;">  +971 509227536</strong>
                                 </div>
                             </div>
                             <div class="d-flex align-items-center">
@@ -689,7 +693,7 @@
                                 </div>
                                 <div>
                                     <small class="d-block text-muted">WhatsApp</small>
-                                    <strong style="color: #3e6ae1 !important;">+971 50 XXX XXXX</strong>
+                                    <strong style="color: #3e6ae1 !important;">  +971 509227536</strong>
                                 </div>
                             </div>
                         </div>
